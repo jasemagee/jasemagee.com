@@ -1,7 +1,6 @@
 ---
 author: jasemagee
 date: "2015-01-21T16:03:33Z"
-guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=88
 title: Gamely Digest and Jekyll
 permalink: /2015/01/gamely-digest-jekyll/
 ---

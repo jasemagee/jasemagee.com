@@ -1,10 +1,5 @@
 ---
-author: jasemagee
-categories:
-- Uncategorized
 date: "2015-03-29T16:26:04Z"
-guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=129
-id: 129
 title: Login via SSH Key
 permalink: /2015/03/login-via-ssh-key/
 ---

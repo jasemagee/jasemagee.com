@@ -1,11 +1,5 @@
 ---
-author: jasemagee
-categories:
-- data.gg
 date: "2016-12-15T09:07:59Z"
-guid: https://jasemagee.com/?p=283
-id: 283
-image: /wp-content/uploads/2016/12/qgis-340x210.png
 title: Creating height maps from SHP files
 permalink: /2016/12/creating-height-maps-shp-files/
 ---
@@ -21,10 +15,7 @@ Thanks to [Steve Streeting](http://www.stevestreeting.com/) who helped figure ou
 
 I&#8217;m going to be using [GDAL](http://www.gdal.org/) (Geospatial Data Abstraction Library) commands which happen to come installed with [QGIS](http://www.qgis.org/en/site/index.html) desktop software for geographic data. You can install via either route &#8211; I went with QGIS because I can also use the software to view and edit the SHP file itself.
 
-<div class="center-align">
-<a href="/wp-content/uploads/2016/12/qgis.png"><img class="responsive-img" src="/wp-content/uploads/2016/12/qgis.png" /></a>
-</div>
-
+{{< imagelink src="/wp-content/uploads/2016/12/qgis.png" >}}
 ## Generate a GeoTIFF
 
 Taken from [Wikipedia](https://en.wikipedia.org/wiki/GeoTIFF), a GeoTIFF is &#8216;a public domain metadata standard which allows georeferencing information to be embedded within a TIFF file&#8217;. Basically &#8211; we&#8217;re going to take our vector data and rasterize it, which is stored in a GeoTIFF. I&#8217;m going to use [gdal_grid](http://www.gdal.org/gdal_grid.html) to convert the data, you could also use (and should try) [gdal_rasterize](http://www.gdal.org/gdal_rasterize.html). Both produced good results but as I have some gaps in the data, gdal_grid is more suitable because it can interpolate between the points (fill in holes).
@@ -47,15 +38,12 @@ I&#8217;m specifying that I want the grid system to use the linear algorithm whi
 
 Attempting to open the .raw file in Photoshop, you&#8217;ll see a window like below (the defaults will be wrong!). The screenshot shows the correct settings to open the file. Notice we&#8217;re using 16 Bits as we did when interacting with GDAL above.
 
-<div class="center-align">
-<a href="/wp-content/uploads/2016/12/photoshop-import-settings.png"><img class="responsive-img" src="/wp-content/uploads/2016/12/photoshop-import-settings.png" /></a>
-</div>
-
+{{< imagelink src="/wp-content/uploads/2016/12/photoshop-import-settings.png" >}}
 ## Height map
 
 Tada, one height map!
 
-<div class="center-align"><img class="responsive-img" src="/wp-content/uploads/2016/12/output.jpg" /></div>
+{{< imagelink src="/wp-content/uploads/2016/12/output.jpg" >}}
 
 It&#8217;s important to note that getting good results here took me a lot of trial and error. This will depend on the quality and quantity of your data. Try all the algorithms available in gdal_grid until you find the best results.
 

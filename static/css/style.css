@@ -66,6 +66,10 @@ a img {
   display: block;
 }
 
+figure {
+  padding-bottom: 24px;
+}
+
 
 .video-container {
   overflow: hidden;

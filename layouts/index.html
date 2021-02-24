@@ -7,7 +7,7 @@
 
             {{ range $paginator.Pages }}
             <div>
-                <h1><a href="{{ .URL }}">{{ .Title }}</a>
+                <h1><a href="{{ .Permalink }}">{{ .Title }}</a>
                 <small>{{ .Date.Format "Jan 2 2006" }}</small></h1>       
             </div>
 

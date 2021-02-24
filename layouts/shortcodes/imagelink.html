@@ -1,5 +1,6 @@
-{{ if .IsNamedParams }}
-<a href="{{ .Get "src" }}"><img src="{{.Get "src" }}" alt=""></a>
-{{ else }}
-<a href="{{ .Get 0 }}"><img src="{{.Get 0}}" alt=""></a>
-{{ end }}
+<a href="{{ with .Get "link"}}{{.}}{{else}}{{.Get "src" }}{{end}}">
+    <figure>
+        <img src="{{.Get "src" }}" alt="">
+        {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+    </figure>
+</a>

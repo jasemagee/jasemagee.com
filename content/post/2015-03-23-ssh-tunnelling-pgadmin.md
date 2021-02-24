@@ -1,11 +1,5 @@
 ---
-author: jasemagee
-categories:
-- Uncategorized
 date: "2015-03-23T16:23:58Z"
-guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=127
-id: 127
-image: /wp-content/uploads/2016/05/ssh_tunnel_pgadmin-340x210.png
 title: SSH Tunnelling with pgAdmin
 permalink: /2015/03/ssh-tunnelling-pgadmin/
 ---
@@ -26,7 +20,7 @@ If you want the command to go into the background so you can continue to use the
 
 Using pgAdmin, connect as you would to a local database except use the port we’ve bound to (3333):
 
-<div class="center-align"><img class="responsive-img" src="/wp-content/uploads/2016/05/ssh_tunnel_pgadmin.png" /></div>
+{{< imagelink src="/wp-content/uploads/2016/05/ssh_tunnel_pgadmin.png" >}}
 
 If you ran the command as suggested, CTRL+C in the terminal will kill the SSH tunnel. If you sent it into the background using -f then you will need to kill the command by finding the background process using ps aux and grep.
 

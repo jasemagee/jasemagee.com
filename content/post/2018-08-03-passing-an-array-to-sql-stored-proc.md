@@ -1,5 +1,4 @@
 ---
-author: jasemagee
 date: "2018-08-03T00:00:00Z"
 title: Passing an Array to an SQL Stored Procedure
 ---

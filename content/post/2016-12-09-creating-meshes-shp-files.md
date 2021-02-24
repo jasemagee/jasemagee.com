@@ -1,11 +1,5 @@
 ---
-author: jasemagee
-categories:
-- Blender
 date: "2016-12-09T20:25:06Z"
-guid: https://jasemagee.com/?p=251
-id: 251
-image: /wp-content/uploads/2016/12/6-result-340x210.png
 title: Creating meshes from SHP files
 permalink: /2016/12/creating-meshes-shp-files/
 ---
@@ -21,32 +15,32 @@ To create the mesh I&#8217;m going to be using [Blender](https://www.blender.org
 
 Using the menu, import your SHP file. Note that the ability to import SHP files comes from the BlenderGIS add-on.
 
-<div class="center-align"><a href="/wp-content/uploads/2016/12/1-import-shp.png"><img class="responsive-img"  src="https://jasemagee.com/wp-content/uploads/2016/12/1-import-shp.png" /></a></div>
+{{< imagelink src="https://jasemagee.com/wp-content/uploads/2016/12/1-import-shp.png" >}}
 
 These options will appear. The field holding the elevation in my case is caused ZVALUE.
 
-<div class="center-align"><a href="/wp-content/uploads/2016/12/2-import-options.png"><img class="responsive-img"  src="https://jasemagee.com/wp-content/uploads/2016/12/2-import-options.png"/></a></div>
+{{< imagelink src="https://jasemagee.com/wp-content/uploads/2016/12/2-import-options.png" >}}
 
 ## Point Cloud
 
 Depending on your data size, this could take a while but eventually the add-on will do its job and create vertices for all the XYZ coordinates.
 
-<div class="center-align"><a href="/wp-content/uploads/2016/12/3-imported-vertex.png"><img class="responsive-img"  src="https://jasemagee.com/wp-content/uploads/2016/12/3-imported-vertex.png"/></a></div>
+{{< imagelink src="https://jasemagee.com/wp-content/uploads/2016/12/3-imported-vertex.png" >}}
 
 What you have here is known as a point cloud. There are loads of tools and algorithms to triangulate point clouds into meshes but BlenderGIS comes with one called &#8216;Delaunay&#8217; which worked perfectly for me. It&#8217;s in the tools area (press T) under the &#8216;GIS&#8217; tab.
 
-<div class="center-align"><a href="/wp-content/uploads/2016/12/4-delaunay.png"><img class="responsive-img"  src="https://jasemagee.com/wp-content/uploads/2016/12/4-delaunay.png" /></a></div>
+{{< imagelink src="https://jasemagee.com/wp-content/uploads/2016/12/4-delaunay.png" >}}
 
 ## Mesh
 
 Again &#8211; this could take a while depending on your data size but eventually you&#8217;ll be presented with a mesh containing edges and faces. Due to my data set containing rock formations around the islands, it has created some planes joining the rocks to the island and other rocks. Select one of the planes and press Ctrl-Shift-Alt-F to select all linked flat faces as in the screenshot below. Use X to delete these faces.
 
-<div class="center-align"><a href="/wp-content/uploads/2016/12/5-ctrl-alt-shift-f-delete-faces-if-req.png"><img src="https://jasemagee.com/wp-content/uploads/2016/12/5-ctrl-alt-shift-f-delete-faces-if-req.png" /></a></div>
+{{< imagelink link="/wp-content/uploads/2016/12/5-ctrl-alt-shift-f-delete-faces-if-req.png" src="https://jasemagee.com/wp-content/uploads/2016/12/5-ctrl-alt-shift-f-delete-faces-if-req.png" >}}
 
 There we have it. One mesh.
 
-<div class="center-align"><a href="/wp-content/uploads/2016/12/6-result.png"><img class="responsive-img"  src="https://jasemagee.com/wp-content/uploads/2016/12/6-result.png" /></a></div>
+{{< imagelink src="https://jasemagee.com/wp-content/uploads/2016/12/6-result.png" >}}
 
 I have a large data set, so my mesh has 433,775 faces which is too many to be usable. There&#8217;s a couple of ways to simplify a mesh but I found using &#8216;Decimate&#8217; modifier with a collapse ratio of 0.03 produced good results. Below I&#8217;ve reduced the mesh to 5,987 faces.
 
-<div class="center-align"><a href="/wp-content/uploads/2016/12/7-decimate.png"><img class="responsive-img"  src="https://jasemagee.com/wp-content/uploads/2016/12/7-decimate.png" /></a></div>
+{{< imagelink src="https://jasemagee.com/wp-content/uploads/2016/12/7-decimate.png" >}}

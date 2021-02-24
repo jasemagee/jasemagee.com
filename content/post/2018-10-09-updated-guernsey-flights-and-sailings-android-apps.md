@@ -1,5 +1,4 @@
 ---
-author: jasemagee
 date: "2018-10-09T00:00:00Z"
 title: Updated Guernsey Flights and Sailings Android Apps
 ---
@@ -8,23 +7,10 @@ I've submitted updates to my Guernsey Flights and Guernsey Sailings Android Apps
 
 You can get it sooner by opting to enter the open beta. There's a section about joining the beta on the apps store pages and you just click "Join now" to do so. Let me know if you have any problems.
 
-<div class="row">
-    <div class="col s12 m6">
-        <div class="center-align">
-            <a href="https://play.google.com/store/apps/details?id=com.reformsoft.guernseyflights.app">
-                <h5>Guernsey Flights</h5>
-                <img class="responsive-img" src="/img/flights114.png">
-            </a>
-            <p>Monitor Guernsey Airports arrivals and departures.</p>
-        </div>
-    </div>
-    <div class="col s12 m6">
-        <div class="center-align">
-            <a href="https://play.google.com/store/apps/details?id=reformosft.guernseysailings&hl=en_GB">
-                <h5>Guernsey Sailings</h5>
-                <img class="responsive-img" src="/img/boats114.png">
-            </a>
-            <p>Monitor Guernsey Harbours arrivals and departures.</p>
-        </div>
-    </div>
-</div>
+{{< imagelink src="/img/flights114.png" caption="Guernsey Flights" link="https://play.google.com/store/apps/details?id=com.reformsoft.guernseyflights.app" >}}
+
+Monitor Guernsey Airports arrivals and departures.
+
+{{< imagelink src="/img/boats114.png" caption="Guernsey Sailings" link="https://play.google.com/store/apps/details?id=reformosft.guernseysailings&hl=en_GB" >}}
+
+Monitor Guernsey Harbours arrivals and departures.

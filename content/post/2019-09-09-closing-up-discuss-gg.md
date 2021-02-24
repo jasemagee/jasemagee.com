@@ -1,5 +1,4 @@
 ---
-author: jasemagee
 date: "2019-09-09T00:00:00Z"
 title: Closing up discuss.gg
 ---
@@ -8,6 +7,4 @@ I've decided to close discuss.gg after several years of running it. It had peaks
 
 For portfolio purposes, I've attached some screenshots below.
 
-<div class="center-align">
-<a href="/img/discuss-gg/discuss-gg-1.jpg"><img class="responsive-img" src="/img/discuss-gg/discuss-gg-1.jpg" /></a>
-</div>
+{{< imagelink src="/img/discuss-gg/discuss-gg-1.jpg" >}}

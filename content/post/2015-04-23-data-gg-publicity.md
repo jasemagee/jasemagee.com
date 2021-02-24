@@ -1,10 +1,5 @@
 ---
-author: jasemagee
-categories:
-- Uncategorized
 date: "2015-04-23T16:26:58Z"
-guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=131
-id: 131
 title: data.gg Publicity
 permalink: /2015/04/data-gg-publicity/
 ---

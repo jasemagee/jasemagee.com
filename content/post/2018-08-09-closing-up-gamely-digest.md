@@ -1,5 +1,4 @@
 ---
-author: jasemagee
 date: "2018-08-09T00:00:00Z"
 title: Closing up Gamely Digest
 ---
@@ -11,21 +10,16 @@ On the technical side, the website was built by me using Ruby on Rails. Nik and 
 
 For portfolio purposes, I've attached some screenshots below. The [YouTube videos](https://www.youtube.com/channel/UCE_Kq4L7N1lCRrAlMTRqQaA) will always be available.
 
-<div class="center-align">
+{{< imagelink src="/img/gamely-digest/gamely-digest-1.jpg" >}}
 
-<a href="/img/gamely-digest/gamely-digest-1.jpg"><img class="responsive-img" src="/img/gamely-digest/gamely-digest-1.jpg" /></a>
+{{< imagelink src="/img/gamely-digest/gamely-digest-2.jpg" >}}
 
-<a href="/img/gamely-digest/gamely-digest-2.jpg"><img class="responsive-img" src="/img/gamely-digest/gamely-digest-2.jpg" /></a>
+{{< imagelink src="/img/gamely-digest/gamely-digest-3.png" >}}
 
-<a href="/img/gamely-digest/gamely-digest-3.png"><img class="responsive-img" src="/img/gamely-digest/gamely-digest-3.png" /></a>
+{{< imagelink src="/img/gamely-digest/gamely-digest-4.png" >}}
 
-<a href="/img/gamely-digest/gamely-digest-4.png"><img class="responsive-img" src="/img/gamely-digest/gamely-digest-4.png" /></a>
+{{< imagelink src="/img/gamely-digest/gamely-digest-5.jpg" >}}
 
-<a href="/img/gamely-digest/gamely-digest-5.jpg"><img class="responsive-img" src="/img/gamely-digest/gamely-digest-5.jpg" /></a>
+{{< imagelink src="/img/gamely-digest/gamely-digest-6.png" >}}
 
-<a href="/img/gamely-digest/gamely-digest-6.png"><img class="responsive-img" src="/img/gamely-digest/gamely-digest-6.png" /></a>
-
-<a href="/img/gamely-digest/gamely-digest-7.png"><img class="responsive-img" src="/img/gamely-digest/gamely-digest-7.png" /></a>
-
-
-</div>
+{{< imagelink src="/img/gamely-digest/gamely-digest-7.png" >}}

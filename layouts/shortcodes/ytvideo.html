@@ -1,0 +1,7 @@
+<figure>
+<div class="video-container">
+    <iframe width="853" height="480" src="{{.Get "src" }}" frameborder="0" allowfullscreen></iframe>
+</div>
+
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

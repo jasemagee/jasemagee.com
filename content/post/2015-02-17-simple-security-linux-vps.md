@@ -1,10 +1,5 @@
 ---
-author: jasemagee
-categories:
-- Uncategorized
 date: "2015-02-17T16:22:08Z"
-guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=123
-id: 123
 title: Simple Security on a Linux VPS
 permalink: /2015/02/simple-security-linux-vps/
 ---

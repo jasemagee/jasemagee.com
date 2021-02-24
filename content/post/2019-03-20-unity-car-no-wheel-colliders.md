@@ -6,14 +6,12 @@ title: Unity Car No Wheel Colliders
 
 This is an attempt to create a car in Unity without using the in-built Wheel Colliders loosely based off of the technical description in this video from Space Dust Racing.
 
-{% include youtuber.html link="https://www.youtube.com/embed/LG1CtlFRmpU" %}
+{{< ytvideo src="https://www.youtube.com/embed/LG1CtlFRmpU" caption="Space Dust Racing" >}}
 
 The car uses raycasts and a suspension system to keep "afloat". Screenshots below.
 
-<div class="center-align">
-<a href="/img/unitycarnowheelcolliders/car1.jpg"><img class="responsive-img" src="/img/unitycarnowheelcolliders/car1.jpg" /></a>
+{{< imagelink src="/img/unitycarnowheelcolliders/car1.jpg" >}}
 
-<a href="/img/unitycarnowheelcolliders/car2.jpg"><img class="responsive-img" src="/img/unitycarnowheelcolliders/car2.jpg" /></a>
-</div>
+{{< imagelink src="/img/unitycarnowheelcolliders/car2.jpg" >}}
 
 [Source code](https://github.com/jasemagee/UnityCarNoWheelColliders)

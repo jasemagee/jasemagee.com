@@ -1,11 +1,5 @@
 ---
-author: jasemagee
-categories:
-- Uncategorized
 date: "2015-01-30T16:10:59Z"
-guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=99
-id: 99
-image: /wp-content/uploads/2016/05/tess_example-340x200.png
 title: Getting data out of image PDFs without losing your mind
 permalink: /2015/01/getting-data-image-pdfs-without-losing-mind/
 ---
@@ -20,7 +14,8 @@ tesseract myscan.png out
 There are plenty of other options available to optimise for your particular situation and even multiple languages supported. For me Tesseract worked perfectly except for the occasional 3 and 8 getting mixed up. Here is an example I created earlier…
 
 #### Input
-<img class="responsive-img" src="/wp-content/uploads/2016/05/tess_example.png" />
+
+{{< imagelink src="/wp-content/uploads/2016/05/tess_example.png" >}}
 
 #### Output
 

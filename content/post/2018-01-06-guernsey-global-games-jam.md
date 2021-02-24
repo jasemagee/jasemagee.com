@@ -12,6 +12,4 @@ Granite Games started after the second Guernsey Global Games Jam and I would hig
 
 A lot of people turn up near the end of the events, particularly with children, to play the games we've created and watch the presentations at the end. If you're not coming to the event, feel free to pop in near the end.
 
-<div class="center-align">
-  <a href="/img/gggj18/guernsey-global-games-jam-sign-up.png" a><img class="responsive-img" src="/img/gggj18/guernsey-global-games-jam-sign-up.png" /></a>
-</div>
+{{< imagelink src="/img/gggj18/guernsey-global-games-jam-sign-up.png" >}}

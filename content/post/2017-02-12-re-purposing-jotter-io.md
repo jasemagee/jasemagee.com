@@ -1,11 +1,5 @@
 ---
-author: jasemagee
-categories:
-- Uncategorized
 date: "2017-02-12T19:58:17Z"
-guid: https://jasemagee.com/?p=362
-id: 362
-image: /wp-content/uploads/2017/02/jotter-home-340x210.png
 title: Re-purposing jotter.io
 permalink: /2017/02/re-purposing-jotter-io/
 ---
@@ -17,9 +11,7 @@ I&#8217;ve decided to re-purpose [jotter.io](http://jotter.io) so the site will 
 
 For portfolio purposes, I&#8217;ve attached some screenshots of the app.
 
-<div class="center-align">
-  <a href="/wp-content/uploads/2017/02/jotter-home.png" a><img class="responsive-img" src="/wp-content/uploads/2017/02/jotter-home.png" /></a>
-  <a href="/wp-content/uploads/2017/02/tables.png"  a><img class="responsive-img" src="/wp-content/uploads/2017/02/tables.png"  /></a>
-  <a href="/wp-content/uploads/2017/02/notes.png" a><img class="responsive-img" src="/wp-content/uploads/2017/02/notes.png" /></a>
-  <a href="/wp-content/uploads/2017/02/doodles.png" a><img class="responsive-img" src="/wp-content/uploads/2017/02/doodles.png" /></a>
-</div>
+{{< imagelink src="/wp-content/uploads/2017/02/jotter-home.png" >}}
+{{< imagelink src="/wp-content/uploads/2017/02/tables.png"  >}}
+{{< imagelink src="/wp-content/uploads/2017/02/notes.png" >}}
+{{< imagelink src="/wp-content/uploads/2017/02/doodles.png" >}}

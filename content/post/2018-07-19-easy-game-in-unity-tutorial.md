@@ -6,19 +6,15 @@ title: Easy Game Made in Unity Tutorial
 
 Outside of working on games for [Granite Games](https://granitegames.gg), I spend a great deal of time experimenting and learning in Unity. Normally, I'll figure out something I was interested in learning and leave the project forgotten on my NAS in case I ever need it. By the time I need something from these projects I've long since forgotten how they work so I'm planning to document them going forward. Hopefully, they'll end up being useful to other people too. This is going to be my first tutorial, based off of a live session I did back in 2016 at the [Digital Greenhouse Guernsey](https://www.digitalgreenhouse.gg/) intended to show to make a simple game in 10 minutes.
 
-The game idea came from a mini-game in Little Big Planet 2 named 'Wall or Nothing'. Here's a video.
+{{< ytvideo src="https://www.youtube.com/embed/VkKaXFbZpc0" caption="The game idea came from a mini-game in Little Big Planet 2 named 'Wall or Nothing'. Here's a video." >}}
 
-{% include youtuber.html link="https://www.youtube.com/embed/VkKaXFbZpc0" %}
-
-This is what the ten minute version I created looks like.
-
-{% include youtuber.html link="https://www.youtube.com/embed/GXZCjpJc-nY" %}
+{{< ytvideo src="https://www.youtube.com/embed/GXZCjpJc-nY" caption="This is what the ten minute version I created looks like." >}}
 
 Now, just to note, this tutorial is intended for people who know some programming.
 
 1\. First, let's create a default 3D project. Just give it a name.
 
-{% include inline-image.html link="easy-game-in-unity-tutorial/create-project.jpg" %}
+{{< imagelink src="/img/easy-game-in-unity-tutorial/create-project.jpg" >}}
 
 Before going any further, we need to understand what Scenes, Game Objects and Components are in Unity.
 
@@ -28,7 +24,7 @@ Before going any further, we need to understand what Scenes, Game Objects and Co
 
 Eventually, the main Unity view will pop up. It'll look something like this.
 
-{% include inline-image.html link="easy-game-in-unity-tutorial/main-unity.jpg" %}
+{{< imagelink src="/img/easy-game-in-unity-tutorial/main-unity.jpg" >}}
 
 There's a couple of different views here, you can find out what they're called by looking at the tab title in the top left above the view. Here's what they're for...
 
@@ -41,29 +37,29 @@ There's a couple of different views here, you can find out what they're called b
 
 2\. We need a solid base for the play area, we're going to use a plane for this. Right-click in the hierarchy view and select "3D Object->Plane", a plane will appear in the scene and game views. 
 
-{% include inline-image.html link="easy-game-in-unity-tutorial/new-plane.jpg" %}
+{{< imagelink src="/img/easy-game-in-unity-tutorial/new-plane.jpg" >}}
 
 3\. For unknown reasons, Unity tends to create new game objects at slightly random positions. Whenever you make a new game object you're going to want to reset it back to 0,0,0 position by clicking the little cog next to the "Transform Component" in the inspector view and clicking Reset. Note this area also controls position, rotation and scale. Remember that for later!
 
-{% include inline-image.html link="easy-game-in-unity-tutorial/reset-position.jpg" %}
+{{< imagelink src="/img/easy-game-in-unity-tutorial/reset-position.jpg" >}}
 
 4\. New 3D objects in Unity all have the same material (called "Default-Material" - look in the inspector view with the plane selected to find it) which has a grey colour. We can change this by creating our own material with a different colour. Right-click in the project area click on "Create->Material". Name the new material "RedMat", if you lose focus of the renaming box, you can use F2 to re-enter rename mode. Make sure the material is selected and in the inspector view, change the Albedo colour by clicking the white rectangle. Pick a red colour using the colour tool that pops up.
 
-{% include inline-image.html link="easy-game-in-unity-tutorial/create-redmat.jpg" %}
+{{< imagelink src="/img/easy-game-in-unity-tutorial/create-redmat.jpg" >}}
 
 5\. In the project view, drag the RedMat onto the plane in the scene view to set it as the material. You can also select the plane and in the inspector view, drop down the Materials (under Mesh Renderer) to pick a different material using the circular icon to the right of the 0th element.
 
 6\. In a similar fashion to the plane, create a sphere with its own material. I've given mine a pink material.
 
-{% include inline-image.html link="easy-game-in-unity-tutorial/new-sphere.jpg" %}
+{{< imagelink src="/img/easy-game-in-unity-tutorial/new-sphere.jpg" >}}
 
 7\. Raise the sphere to be positioned slightly above the plane. I set mine to be 0, 0.5, 0. You can move it using the arrow or by manually inputting in the transform component position field. Use the left mouse button and the green arrow as shown below to move it manually. 
 
-{% include inline-image.html link="easy-game-in-unity-tutorial/move-sphere.jpg" %}
+{{< imagelink src="/img/easy-game-in-unity-tutorial/move-sphere.jpg" >}}
 
 If you can't see these arrows make sure you're in the right mode by selecting this button at the top left of Unity.
 
-{% include inline-image.html link="easy-game-in-unity-tutorial/move-sphere-mode.jpg" %}
+{{< imagelink src="/img/easy-game-in-unity-tutorial/move-sphere-mode.jpg" >}}
 
 8\. Select the sphere and click "Add Component" in the inspector view. Start typing Rigidbody and two options will appear. We want the standard Rigidbody as we're not making a 2D game, so click it or press Enter on the keyboard. A Rigidbody tells Unity that this game object will be under the control of Unity's physics engine. You can read more about them [here](https://docs.unity3d.com/ScriptReference/Rigidbody.html).
 
@@ -78,7 +74,7 @@ If you can't see these arrows make sure you're in the right mode by selecting th
 
 Your sphere should look something like this.
 
-{% include inline-image.html link="easy-game-in-unity-tutorial/ball-setup.jpg" %}
+{{< imagelink src="/img/easy-game-in-unity-tutorial/ball-setup.jpg" >}}
 
 11\. Double click the Ball script in the hierarchy or inspector views to open it. Another application will open allowing you to edit the script. Replace the code with the following.
 
@@ -156,7 +152,7 @@ Try it. The ball should jump, move left and move right now. There should be a so
 
 12\. Moving on to the wall, this time create an empty game object ("Create Empty" in the right-click menu). Name the empty game object "Wall". Set its position to 0, 0, -4. Add a Rigidbody to the wall and check "Is Kinematic" and un-check "Use Gravity", we're telling Unity we'll control this object by making it kinematic. As the wall needs to have a block missing for the player to move through, we'll make the wall out of 6 blocks.
 
-{% include inline-image.html link="easy-game-in-unity-tutorial/wall-sections.jpg" %}
+{{< imagelink src="/img/easy-game-in-unity-tutorial/wall-sections.jpg" >}}
 
 Each block is going to be a game object inside the parent wall game object. This means we're going to right-click on the wall game object and add a "3D Object->Cube" 6 times, adding them to the wall game object means they're children. My cubes are scaled to 3.5, 2, 1. You should be able to figure out the positions yourself, but they're...
 
@@ -169,7 +165,7 @@ Each block is going to be a game object inside the parent wall game object. This
 
 Now, as before, create a material and assign it to all of the cubes. You'll end up with something like this...
 
-{% include inline-image.html link="easy-game-in-unity-tutorial/wall-setup.jpg" %}
+{{< imagelink src="/img/easy-game-in-unity-tutorial/wall-setup.jpg" >}}
 
 13\. Create a Wall script and add it to the parent wall game object. We want the Wall script to create a hole in itself by deleting one of its children for the player to try and pass through and we want it to move towards the player after a short delay.
 
@@ -222,7 +218,7 @@ Pressing play now, it should work as intended. A block of the wall will disappea
 
 14\. To make the wall game object re-usable, we'll need to make it into a prefab. A prefab is similar to a class in programming, it's something you make instances of. To make an existing game object into a prefab, drag it from the hierarchy view into the Project view. Check it out in the project view now, it should look pretty similar to how it did in the hierarchy.
 
-{% include inline-image.html link="easy-game-in-unity-tutorial/wall-prefab.jpg" %}
+{{< imagelink src="/img/easy-game-in-unity-tutorial/wall-prefab.jpg" >}}
 
 15\. Once you're sure the wall prefab is in the project view, delete the Wall game object from the scene.
 
@@ -247,11 +243,11 @@ public class WallSpawner : MonoBehaviour
 
 You'll notice WallPrefab is a public property and doesn't get set inside this code. We're going to set this inside Unity to be the wall prefab we just created. Go back to the inspector and you'll see a slot for a wall prefab.
 
-{% include inline-image.html link="easy-game-in-unity-tutorial/wallspawner-before.jpg" %}
+{{< imagelink src="/img/easy-game-in-unity-tutorial/wallspawner-before.jpg" >}}
 
 Drag and drop the wall prefab from the project view into this slot. It'll look like this.
 
-{% include inline-image.html link="easy-game-in-unity-tutorial/wallspawner-after.jpg" %}
+{{< imagelink src="/img/easy-game-in-unity-tutorial/wallspawner-after.jpg" >}}
 
 18\. Your game is done! Obviously it's not complete, it needs a menu, a win condition, lose conditions, scores, etc. but hopefully you've learnt enough to get you started.
 

@@ -1,11 +1,5 @@
 ---
-author: jasemagee
-categories:
-- Uncategorized
 date: "2017-02-12T19:33:24Z"
-guid: https://jasemagee.com/?p=350
-id: 350
-image: /wp-content/uploads/2017/02/vote-logo-340x210.png
 title: Closing up vote.gg
 permalink: /2017/02/closing-vote-gg/
 ---
@@ -15,12 +9,8 @@ This is just a post to note that I&#8217;m closing up [vote.gg](http://vote.gg),
 
 Anyway, just for portfolio purposes, I&#8217;ve attached some screenshots of how far we got as I&#8217;m going to point the domain at a simple page until it expires.
 
-<div class="center-align">
+{{< imagelink src="https://jasemagee.com/wp-content/uploads/2017/02/votegg1-1024x785.png" >}}
 
-<a href="https://jasemagee.com/wp-content/uploads/2017/02/votegg1.png"><img class="responsive-img" src="https://jasemagee.com/wp-content/uploads/2017/02/votegg1-1024x785.png" /></a>
+{{< imagelink src="https://jasemagee.com/wp-content/uploads/2017/02/votegg2-1024x996.png" >}}
 
-<a href="https://jasemagee.com/wp-content/uploads/2017/02/votegg2.png"><img class="responsive-img" src="https://jasemagee.com/wp-content/uploads/2017/02/votegg2-1024x996.png" /></a>
-
-<a href="https://jasemagee.com/wp-content/uploads/2017/02/votegg3.png"><img class="responsive-img" src="https://jasemagee.com/wp-content/uploads/2017/02/votegg3.png" /></a>
-
-</div>
+{{< imagelink src="https://jasemagee.com/wp-content/uploads/2017/02/votegg3.png" >}}
