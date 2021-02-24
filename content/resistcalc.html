@@ -1,0 +1,83 @@
+--- 
+layout: page 
+title: Resist Calc
+permalink: /resist-calc/ 
+---
+<link href="/css/resistcalc.css" rel="stylesheet">
+<script src="/js/resistcalc/jquery-1.7.2.min.js"></script>
+<script src="/js/resistcalc/script.js"></script>
+
+<h1>Resistor Calculator</h1>
+<noscript>
+    <div id="error_explanation">
+        <h2>This calcuator requires javascript</h2>
+    </div>
+</noscript>
+<p>A simple four band resistor calculator, useful for Raspberry Pi, Arduino or other electronic projects.</p>
+<h5>First Band</h5>
+<select id="first" class="band">
+    <option value="0" class="black_option">Black (0)</option>
+    <option value="1" class="brown_option">Brown (1)</option>
+    <option value="2" class="red_option">Red (2)</option>
+    <option value="3" class="orange_option">Orange (3)</option>
+    <option value="4" class="yellow_option">Yellow (4)</option>
+    <option value="5" class="green_option">Green (5)</option>
+    <option value="6" class="blue_option">Blue (6)</option>
+    <option value="7" class="violet_option">Violet (7)</option>
+    <option value="8" class="grey_option">Grey (8)</option>
+    <option value="9" class="white_option">White (9)</option>
+</select>
+
+<h5>Second Band</h5>
+<select id="second" class="band">
+    <option value="0" class="black_option">Black (0)</option>
+    <option value="1" class="brown_option">Brown (1)</option>
+    <option value="2" class="red_option">Red (2)</option>
+    <option value="3" class="orange_option">Orange (3)</option>
+    <option value="4" class="yellow_option">Yellow (4)</option>
+    <option value="5" class="green_option">Green (5)</option>
+    <option value="6" class="blue_option">Blue (6)</option>
+    <option value="7" class="violet_option">Violet (7)</option>
+    <option value="8" class="grey_option">Grey (8)</option>
+    <option value="9" class="white_option">White (9)</option>
+</select>
+
+<h5>Third Band (Multiplier)</h5>
+<select id="third" class="band">
+    <option value="0" class="black_option">Black (0)</option>
+    <option value="1" class="brown_option">Brown (1)</option>
+    <option value="2" class="red_option">Red (2)</option>
+    <option value="3" class="orange_option">Orange (3)</option>
+    <option value="4" class="yellow_option">Yellow (4)</option>
+    <option value="5" class="green_option">Green (5)</option>
+    <option value="6" class="blue_option">Blue (6)</option>
+    <option value="7" class="violet_option">Violet (7)</option>
+    <option value="8" class="grey_option">Grey (8)</option>
+    <option value="9" class="white_option">White (9)</option>
+</select>
+
+<h5>Fourth Band (Tolerance)</h5>
+<select id="forth" class="band">
+    <option value="1" class="brown_option">Brown (&plusmn;1%)</option>
+    <option value="2" class="red_option">Red (&plusmn;2%)</option>
+    <option value="5" class="gold_option">Gold (&plusmn;5%)</option>
+    <option value="10" class="silver_option">Silver (&plusmn;10%)</option>
+</select>
+
+
+<p>The resistor's value is
+    <span id="resistor_value">0</span> &Omega; with a tolerance of &plusmn;
+    <span id="resistor_tolerance">0</span>%
+</p>
+
+<div class="store-badge">
+    <a href="http://www.amazon.co.uk/dp/B00I9J43IE">
+        <img alt="Available at Amazon" src="/img/resist-calc/amazon.png" />
+    </a>
+</div>
+<div class="store-badge">
+    <a href="https://play.google.com/store/apps/details?id=com.reformsoft.resistcalc">
+        <img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" />
+    </a>
+</div>
+<br>

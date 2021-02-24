@@ -1,0 +1,5 @@
+baseURL: https://jasemagee.com
+disablePathToLower: true
+languageCode: en-gb
+title: Jason Magee
+paginate: 5

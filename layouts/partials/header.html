@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="terminal-nav">
+        <div class="terminal-logo">
+            <div class="logo terminal-prompt"><a href="/" class="no-style">{{ .Site.Title }}</a></div>
+        </div>
+        <nav class="terminal-menu">
+            {{ $currentPage := . }}
+
+            <ul>
+                {{ range .Site.Menus.main }}
+                <li>
+                    <a class="menu-item{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" title="{{ .Title }}" href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!-- https://css-tricks.com/dont-overthink-flexbox-grids/ -->

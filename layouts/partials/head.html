@@ -1,0 +1,19 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    {{ if .Page.Title }}
+    <title>{{ .Site.Title }} - {{ .Page.Title }}</title>
+    {{ else }}
+    <title>{{ .Site.Title }}</title>
+    {{ end }}
+
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/" />
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+
+    <link rel="stylesheet" href="/css/code.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+
+</head>

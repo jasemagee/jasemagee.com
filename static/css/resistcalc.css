@@ -1,0 +1,114 @@
+select {
+  width: 220px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+select, input[type="file"] {
+  height: 28px;
+  line-height: 28px;
+}
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #CCCCCC;
+  border-radius: 3px 3px 3px 3px;
+  display: inline-block;
+  font-size: 13px;
+  margin-bottom: 9px;
+  padding: 4px;
+}
+
+input, button, select, textarea {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.black_option {
+  background-color: Black;
+  color: White;
+}
+
+.brown_option {
+  background-color: Brown;
+  color: Black;
+}
+
+.red_option {
+  background-color: Red;
+  color: Black;
+}
+
+.orange_option {
+  background-color: Orange;
+  color: Black;
+}
+
+.yellow_option {
+  background-color: Yellow;
+  color: Black;
+}
+
+.green_option {
+  background-color: Green;
+  color: Black;
+}
+
+.blue_option {
+  background-color: Blue;
+  color: White;
+}
+.violet_option {
+  background-color: Violet;
+  color: Black;
+}
+
+.grey_option {
+  background-color: Grey;
+  color: Black;
+}
+
+.white_option {
+  background-color: White;
+  color: Black;
+}
+
+.gold_option {
+  background-color: Gold;
+  color: Black;
+}
+
+.silver_option {
+  background-color: Silver;
+  color: Black;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+   text-align: left;
+   font-weight: bold;
+   padding: 5px 5px 5px 15px;
+   font-size: 12px;
+   margin: -7px;
+   margin-bottom: 0px;
+   background-color: #c00;
+   color: #fff;
+ }
+}
+
+#footer-container {
+padding: 10px;
+}
+
+#reformsoft-logo {
+  float:right;
+}
+
+.store-badge {
+  float: left;
+  padding: 2px;
+}

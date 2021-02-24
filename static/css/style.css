@@ -1,0 +1,88 @@
+:root {
+  --global-font-size: 15px;
+  --global-line-height: 1.4em;
+  --global-space: 10px;
+  --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+    serif;
+  --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+    serif;
+  --background-color: #222225;
+  --page-width: 60em;
+  --font-color: #e8e9ed;
+  --invert-font-color: #222225;
+  --secondary-color: #a3abba;
+  --tertiary-color: #a3abba;
+  --primary-color: #62c4ff;
+  --error-color: #ff3c74;
+  --progress-bar-background: #3f3f44;
+  --progress-bar-fill: #62c4ff;
+  --code-bg-color: #3f3f44;
+  --input-style: solid;
+  --display-h1-decoration: none;
+}
+
+.components-grid {
+  display: grid;
+  grid-column-gap: 1.4em;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.components-grid-small-left {
+  display: grid;
+  grid-column-gap: 1.4em;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.three-col {
+  display: grid;
+  grid-column-gap: 1.4em;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+@media only screen and (min-width: 70em) {
+  .components-grid {
+    grid-template-columns: 9fr 3fr;
+  }
+
+  .components-grid-small-left {
+    grid-template-columns: 3fr 9fr;
+  }
+
+  .three-col {
+    grid-template-columns: 4fr 4fr 4fr;
+  }
+}
+
+img.normal-size {
+  width: initial;
+}
+
+a img {
+  display: block;
+}
+
+
+.video-container {
+  overflow: hidden;
+  position: relative;
+  width:100%;
+}
+
+.video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
