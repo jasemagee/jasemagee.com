@@ -1,5 +1,4 @@
 ---
-author: jasemagee
 date: "2018-01-23T00:00:00Z"
 title: New Mechanical Keyboard
 ---

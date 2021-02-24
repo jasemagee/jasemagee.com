@@ -1,5 +1,4 @@
 ---
-author: jasemagee
 date: "2018-07-19T00:00:00Z"
 title: Easy Game Made in Unity Tutorial
 ---

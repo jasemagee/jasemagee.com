@@ -1,5 +1,4 @@
 ---
-author: jasemagee
 date: "2018-01-06T10:40:00Z"
 title: 2018 Guernsey Global Games Jam
 ---
