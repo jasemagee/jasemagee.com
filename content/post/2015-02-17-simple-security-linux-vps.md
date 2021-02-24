@@ -6,7 +6,7 @@ date: "2015-02-17T16:22:08Z"
 guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=123
 id: 123
 title: Simple Security on a Linux VPS
-url: /2015/02/simple-security-linux-vps/
+permalink: /2015/02/simple-security-linux-vps/
 ---
 I maintain a number of Linux VPS (5 at the time of writing) and wanted to cover some basic security measures. When you sign up for a Linux VPS you tend to be given a root login to set it up. You should never leave it with root access as it’s a security risk. The minimum you want to do is create a new login and prevent root from logging on via SSH. Another good precaution is to change the default SSH port. For maximum security you want to use SSH keys for access which I’ll cover in another post.
 

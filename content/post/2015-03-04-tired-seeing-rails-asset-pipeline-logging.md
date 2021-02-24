@@ -6,7 +6,7 @@ date: "2015-03-04T16:22:52Z"
 guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=125
 id: 125
 title: Tired of seeing the Rails asset pipeline logging?
-url: /2015/03/tired-seeing-rails-asset-pipeline-logging/
+permalink: /2015/03/tired-seeing-rails-asset-pipeline-logging/
 ---
 Tired of seeing the Rails asset pipeline logging in the console? Disable it by adding this code…
 

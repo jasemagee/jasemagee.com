@@ -7,7 +7,7 @@ guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=133
 id: 133
 image: /wp-content/uploads/2016/05/https_mixed_content-340x167.png
 title: HTTPS Blocked Mixed Content
-url: /2015/06/https-blocked-mixed-content/
+permalink: /2015/06/https-blocked-mixed-content/
 ---
 I recently came across this message after installing an SSL certificate on one of my websites.
 

@@ -7,7 +7,7 @@ guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=118
 id: 118
 image: /wp-content/uploads/2016/05/line_example-340x210.png
 title: Gamely Digest Follow Up
-url: /2015/02/gamely-digest-follow/
+permalink: /2015/02/gamely-digest-follow/
 ---
 This is a follow up post to [this](https://jasemagee.com/2015/01/gamely-digest-image-processing/) post in which I promised to post my solution to handling thumbnails when different reviewers submit different aspect ratio images, e.g…
 

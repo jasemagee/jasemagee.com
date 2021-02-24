@@ -7,7 +7,7 @@ guid: https://jasemagee.com/?p=362
 id: 362
 image: /wp-content/uploads/2017/02/jotter-home-340x210.png
 title: Re-purposing jotter.io
-url: /2017/02/re-purposing-jotter-io/
+permalink: /2017/02/re-purposing-jotter-io/
 ---
 [Jotter.io](http://jotter.io) was a simplistic note taking application enabling you to take notes in three forms: notes, doodles and tables. Jotter was built in a responsive way to ensure maximum support for a variety of devices. All forms of note automatically save on the fly.
 

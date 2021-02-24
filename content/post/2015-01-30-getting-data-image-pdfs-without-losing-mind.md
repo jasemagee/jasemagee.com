@@ -7,7 +7,7 @@ guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=99
 id: 99
 image: /wp-content/uploads/2016/05/tess_example-340x200.png
 title: Getting data out of image PDFs without losing your mind
-url: /2015/01/getting-data-image-pdfs-without-losing-mind/
+permalink: /2015/01/getting-data-image-pdfs-without-losing-mind/
 ---
 Recently I’ve been gathering data from [gov.gg](http://gov.gg "gov.gg") census reports as far back as 1971 for [data.gg](http://data.gg "data.gg"). The earlier census reports are scanned and the later ones have been created electronically but don’t copy and paste correctly. By the end of manually copying the data from the first table I knew I’d have to find a better way. After a bit of searching I found [Tesseract](https://code.google.com/p/tesseract-ocr/ "Tesseract"), an OCR (Optical Character Recognition) tool. OCR tools take an image and attempt to convert any text it finds in the image into usable text. Google has even had a hand in Tesseract.
 

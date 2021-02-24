@@ -3,7 +3,7 @@ author: jasemagee
 date: "2015-01-21T16:03:33Z"
 guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=88
 title: Gamely Digest and Jekyll
-url: /2015/01/gamely-digest-jekyll/
+permalink: /2015/01/gamely-digest-jekyll/
 ---
 We started Gamely Digest in 2013 to make a more digestible way to follow video games. The older I get the less time I have to play games and deciding what is worth playing is time consuming in itself.
 

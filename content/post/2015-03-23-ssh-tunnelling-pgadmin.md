@@ -7,7 +7,7 @@ guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=127
 id: 127
 image: /wp-content/uploads/2016/05/ssh_tunnel_pgadmin-340x210.png
 title: SSH Tunnelling with pgAdmin
-url: /2015/03/ssh-tunnelling-pgadmin/
+permalink: /2015/03/ssh-tunnelling-pgadmin/
 ---
 When working with remote PostgreSQL databases it’s nice to be able to use a graphical user interface to manage the data. Fortunately, it is very straight forward to setup by creating an SSH tunnel to the remote server and then connecting pgAdmin to the server as if it’s on localhost.
 

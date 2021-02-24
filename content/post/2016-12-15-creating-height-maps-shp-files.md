@@ -7,7 +7,7 @@ guid: https://jasemagee.com/?p=283
 id: 283
 image: /wp-content/uploads/2016/12/qgis-340x210.png
 title: Creating height maps from SHP files
-url: /2016/12/creating-height-maps-shp-files/
+permalink: /2016/12/creating-height-maps-shp-files/
 ---
 A while ago now, [Digimap](http://www.digimap.gg/) gave [data.gg](https://data.gg/) a SHP file containing elevation data for Guernsey, Sark, Alderney and Herm. Using this data, I&#8217;m going to place a WebGL widget on [data.gg](https://data.gg/) allowing users to fly around the islands. There&#8217;s two ways to approach this:
 

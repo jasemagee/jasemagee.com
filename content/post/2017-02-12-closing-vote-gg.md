@@ -7,7 +7,7 @@ guid: https://jasemagee.com/?p=350
 id: 350
 image: /wp-content/uploads/2017/02/vote-logo-340x210.png
 title: Closing up vote.gg
-url: /2017/02/closing-vote-gg/
+permalink: /2017/02/closing-vote-gg/
 ---
 This is just a post to note that I&#8217;m closing up [vote.gg](http://vote.gg), I&#8217;m not going to have the time to do the project justice and I haven&#8217;t worked on it in some time. And to be honest I&#8217;ve lost faith in the system after Brexit and Donald Trump. The domain expires in 2018 &#8211; if anyone wants it for a good cause let me know. 
 

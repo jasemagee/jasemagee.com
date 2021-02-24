@@ -7,7 +7,7 @@ guid: https://jasemagee.com/?p=229
 id: 229
 image: /wp-content/uploads/2016/10/CvseZ3yXEAAcd3_-340x210.jpg
 title: Unity game created live in ten minutes
-url: /2016/10/unity-game-created-live-ten-minutes/
+permalink: /2016/10/unity-game-created-live-ten-minutes/
 ---
 
 <div class="center-align">

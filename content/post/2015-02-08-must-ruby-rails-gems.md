@@ -7,7 +7,7 @@ guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=113
 id: 113
 image: /wp-content/uploads/2016/05/sidekiq-340x210.png
 title: Must have Ruby on Rails Gems
-url: /2015/02/must-ruby-rails-gems/
+permalink: /2015/02/must-ruby-rails-gems/
 ---
 These are some of my most regularly used Ruby Gems when I’m working with Rails.
 

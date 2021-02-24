@@ -7,7 +7,7 @@ guid: https://jasemagee.com/?p=184
 id: 184
 image: /wp-content/uploads/2016/05/sac-infer.jpg
 title: Sacrificial Inferno progress since Jan
-url: /2016/06/progress-sacrificial-inferno-since-games-jam-16/
+permalink: /2016/06/progress-sacrificial-inferno-since-games-jam-16/
 ---
 Over on [sacrificialinferno.com](https://sacrificialinferno.com) I&#8217;ve posted an [update](https://sacrificialinferno.com/2016/04/15/progress-since-the-games-jam/) on our progress to Sacrificial Inferno since the Games Jam at the end of January. Bit late posting it on my site &#8211; sorry!
 

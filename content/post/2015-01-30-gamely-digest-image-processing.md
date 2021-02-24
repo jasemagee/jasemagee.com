@@ -7,7 +7,7 @@ guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=109
 id: 109
 image: /wp-content/uploads/2016/05/line_example-340x210.png
 title: Gamely Digest image processing
-url: /2015/01/gamely-digest-image-processing/
+permalink: /2015/01/gamely-digest-image-processing/
 ---
 One of the my targets for Gamely Digest is that it is kept simple and pain-free to maintain. For the first few reviews, I had to manually create thumbnails, rename and convert 50 images in GIMP. This drove me to write some bash scripts to automate the process.
 

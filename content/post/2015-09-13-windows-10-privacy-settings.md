@@ -7,7 +7,7 @@ guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=135
 id: 135
 image: /wp-content/uploads/2016/05/general-340x210.jpg
 title: Windows 10 Privacy Settings
-url: /2015/09/windows-10-privacy-settings/
+permalink: /2015/09/windows-10-privacy-settings/
 ---
 The latest release of Windows has quite a few settings for privacy which I’ve documented below.
 

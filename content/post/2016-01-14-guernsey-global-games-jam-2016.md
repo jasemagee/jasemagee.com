@@ -6,7 +6,7 @@ date: "2016-01-14T16:33:28Z"
 guid: https://jasemagee.com.testing.reformsoft.default.jmagee.uk0.bigv.io/?p=137
 id: 137
 title: Guernsey Global Games Jam 2016
-url: /2016/01/guernsey-global-games-jam-2016/
+permalink: /2016/01/guernsey-global-games-jam-2016/
 ---
 I recently participated in the Guernsey Global Games Jam 2016 and with our team we’ve created a cracking game called ‘Sacrificial Inferno’. [Here](http://sacrificialinferno.com/) is the website.
 

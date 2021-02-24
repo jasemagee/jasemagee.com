@@ -7,7 +7,7 @@ guid: https://jasemagee.com/?p=321
 id: 321
 image: /wp-content/uploads/2017/01/2017-01-22-16.01.49-340x210.jpg
 title: Guernsey&#8217;s Global Games Jam 2017
-url: /2017/01/guernseys-global-games-jam-2017/
+permalink: /2017/01/guernseys-global-games-jam-2017/
 ---
 Last years Global Games Jam lead to the creation of [Sacrificial Inferno](https://sacrificialinferno.com/). For those who don&#8217;t know, Sacrificial Inferno is a procedurally generated, permadeath, hack and slash, retro 2D platformer which we&#8217;re working on. As you can imagine I was pretty excited to attend again this year.
 
