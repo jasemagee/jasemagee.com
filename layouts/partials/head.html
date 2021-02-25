@@ -8,12 +8,13 @@
     <title>{{ .Site.Title }}</title>
     {{ end }}
 
-    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/" />
-    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+    {{ $normalize := resources.Get "css/normalize.css" }}
+    {{ $terminal := resources.Get "css/terminal.min.css" }}
+    {{ $code := resources.Get "css/code.css" }}
+    {{ $style := resources.Get "css/style.css" }}
 
-    <link rel="stylesheet" href="/css/code.css">
-    <link rel="stylesheet" href="/css/style.css">
-
+    {{ $CSS := slice $normalize $terminal $code $style | resources.Concat "main.css" }}
+    <link rel="stylesheet" href="{{ $CSS.RelPermalink }}" media="all">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
 </head>

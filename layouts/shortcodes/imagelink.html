@@ -1,3 +1,11 @@
+{{ $imagename := (.Get "src") }}
+
+{{- $original := resources.Get $imagename -}}
+
+  {{ with ($original.Fit "60x60") }}
+  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+  {{ end }} 
+
 <a href="{{ with .Get "link"}}{{.}}{{else}}{{.Get "src" }}{{end}}">
     <figure>
         <img src="{{.Get "src" }}" alt="">
