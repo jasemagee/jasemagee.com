@@ -1,14 +1,16 @@
 {{ $imagename := (.Get "src") }}
-
 {{- $original := resources.Get $imagename -}}
-
-  {{ with ($original.Fit "60x60") }}
-  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-  {{ end }} 
 
 <a href="{{ with .Get "link"}}{{.}}{{else}}{{.Get "src" }}{{end}}">
     <figure>
-        <img src="{{.Get "src" }}" alt="">
+        {{ if gt $original.Width 860 }}
+        {{ with ($original.Resize "860x") }}
+            <img src="{{ .RelPermalink }}">
+        {{ end }}
+        {{ else }}
+            <img src="{{ $original.RelPermalink }}" style="margin-left: auto; margin-right:auto; width: {{ $original.Width }}px; height:{{ $original.Height }}px">
+        {{ end }} 
+
         {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
     </figure>
 </a>

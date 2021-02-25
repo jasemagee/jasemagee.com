@@ -9,8 +9,8 @@ This is just a post to note that I&#8217;m closing up [vote.gg](http://vote.gg),
 
 Anyway, just for portfolio purposes, I&#8217;ve attached some screenshots of how far we got as I&#8217;m going to point the domain at a simple page until it expires.
 
-{{< imagelink src="https://jasemagee.com/wp-content/uploads/2017/02/votegg1-1024x785.png" >}}
+{{< imagelink src="wp-content/uploads/2017/02/votegg1-1024x785.png" >}}
 
-{{< imagelink src="https://jasemagee.com/wp-content/uploads/2017/02/votegg2-1024x996.png" >}}
+{{< imagelink src="wp-content/uploads/2017/02/votegg2-1024x996.png" >}}
 
-{{< imagelink src="https://jasemagee.com/wp-content/uploads/2017/02/votegg3.png" >}}
+{{< imagelink src="wp-content/uploads/2017/02/votegg3.png" >}}

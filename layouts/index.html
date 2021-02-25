@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class="container">
-    <div class="components-grid">
+ 
         <main>
             {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
 
@@ -37,12 +37,8 @@
                 {{ else }}
                 <span class="btn btn-default btn-ghost">Next</span>
                 {{ end }}
-
-
             </div>
         </main>
-
-        <aside id="menu">{{ partial "face.html" . }}</aside>
     </div>
 </div>
 

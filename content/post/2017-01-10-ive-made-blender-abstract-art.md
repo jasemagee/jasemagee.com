@@ -7,6 +7,6 @@ Recently I';ve spent a lot of time learning Blender for game development and fan
 
 Both are the ultra-wide resolution of 3440x1440 and available to do with as you please.
 
-{{< imagelink src="https://jasemagee.com/wp-content/uploads/2017/01/hex-purple-3440x1440.jpg" >}}
+{{< imagelink src="wp-content/uploads/2017/01/hex-purple-3440x1440.jpg" >}}
 
-{{< imagelink src="https://jasemagee.com/wp-content/uploads/2017/01/poly-gold-3440x1440.jpg" >}}
+{{< imagelink src="wp-content/uploads/2017/01/poly-gold-3440x1440.jpg" >}}

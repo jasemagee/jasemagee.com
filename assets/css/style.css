@@ -23,12 +23,6 @@
   --display-h1-decoration: none;
 }
 
-.components-grid {
-  display: grid;
-  grid-column-gap: 1.4em;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-}
 
 .components-grid-small-left {
   display: grid;
@@ -45,9 +39,6 @@
 }
 
 @media only screen and (min-width: 70em) {
-  .components-grid {
-    grid-template-columns: 9fr 3fr;
-  }
 
   .components-grid-small-left {
     grid-template-columns: 3fr 9fr;
@@ -71,6 +62,7 @@ figure {
 }
 
 
+/* YouTube  */
 .video-container {
   overflow: hidden;
   position: relative;
@@ -89,4 +81,30 @@ figure {
   left: 0;
   width: 100%;
   height: 100%;
+}
+/* YouTube  */
+
+.flex-grid {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
+
+.col:not(:last-child) {
+  padding-right: 22px;
+}
+
+.flex-grid-double {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+@media (max-width: 50em) {
+  .flex-grid {
+    display: block;
+  }
 }
