@@ -4,9 +4,19 @@
     
     {{ if .Page.Title }}
     <title>{{ .Site.Title }} - {{ .Page.Title }}</title>
+    <meta property="og:title" content="{{ .Site.Title }} - {{ .Page.Title }}">
+    <meta name="twitter:title" content="{{ .Site.Title }} - {{ .Page.Title }}">
     {{ else }}
     <title>{{ .Site.Title }}</title>
+    <meta property="og:title" content="{{ .Site.Title }}">
+    <meta name="twitter:title" content="{{ .Site.Title }}">
     {{ end }}
+
+    <meta name="description" content="Guernsey based software consultant and games developer wannabe.">
+
+    <meta property="og:image" content="https://jasemagee.com/img/jase.jpg">
+    <meta property="og:description" content="Guernsey based software consultant and games developer wannabe.">
+
 
     {{ $normalize := resources.Get "css/normalize.css" }}
     {{ $terminal := resources.Get "css/terminal.min.css" }}
