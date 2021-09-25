@@ -3,3 +3,6 @@ disablePathToLower: true
 languageCode: en-gb
 title: Jason Magee
 paginate: 5
+disableKinds:
+- taxonomy
+- term
