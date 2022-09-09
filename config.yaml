@@ -2,6 +2,9 @@ baseURL: https://jasemagee.com
 disablePathToLower: true
 languageCode: en-gb
 title: Jason Magee
+params:
+  desc: Guernsey based software consultant and games developer wannabe.
+  img: https://jasemagee.com/img/jase.jpg
 paginate: 5
 disableKinds:
 - taxonomy
