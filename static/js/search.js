@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
             e.preventDefault();
             e.stopPropagation();
         
-            window.location = "/search?text=" + document.getElementById('search-text').value;
+            window.location = "/search/?text=" + document.getElementById('search-text').value;
         
             return false;
         });
