@@ -8,7 +8,7 @@ We've just wrapped up Guernsey Global Games Jam 2023 at Guernsey's [Digital Gree
 
 {{< imagelink src="/img/gggj2023/1.png" caption="Me, looking a bit odd, showing our game" >}}
 
-The theme this year was 'Roots'. Our team was made up of 4 people, including myself: Marc Beavan, Matthew Champion and Aaron Smillie. We made a game about an alien meteor crashing in a town with a tenticle monster spreading out to destory the buildings and kill the inhabitants. One of the townsfolk happens to have a helicopter which you can use to collect survivors and take them to safety. The different buildings are named (e.g. care home, orphanage, states, tax office) so you can decide who to save.
+The theme this year was 'Roots'. Our team was made up of 4 people, including myself: Marc Beavan, Matthew Champion and Aaron Smillie. We made a game about an alien meteor crashing in a town with a tentacle monster spreading out to destroy the buildings and kill the inhabitants. One of the townsfolk happens to have a helicopter which you can use to collect survivors and take them to safety. The different buildings are named (e.g. care home, orphanage, states, tax office) so you can decide who to save.
 
 {{< imagelink src="/img/gggj2023/2.jpg" caption="Room" >}}
 
