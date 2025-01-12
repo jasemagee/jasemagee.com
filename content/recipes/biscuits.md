@@ -9,7 +9,7 @@ date: "2021-01-03"
 - 1 teaspoons vanilla
 - 275g plain flour
 
-Smash it into a bowl. Beat, preferably with an electric one. Get about 10 pancakes. Double for more.
+Smash it into a bowl. Beat, preferably with an electric one. Double for more.
 
 Roll out, cut shapes (preferably dinosaurs), 1cm deep.
 
