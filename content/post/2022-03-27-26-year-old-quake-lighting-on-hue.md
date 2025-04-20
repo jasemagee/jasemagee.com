@@ -7,9 +7,10 @@ Here's a short video demonstrating a small project I recently worked on. The obj
 
 {{< ytvideo src="https://www.youtube.com/embed/lu2TtFSUFLk" caption="26 Year Old Quake Lighting on Hue" >}}
 
-Converting the code started by pulling the original lighting patterns from the {{< blanklink src="https://github.com/id-Software/Quake/blob/bf4ac424ce754894ac8f1dae6a3981954bc9852d/qw-qc/world.qc#L328-L372" caption="Quake Source Code" >}} and converting it into C# for my little WinForms app.
+Converting the code started by pulling the original lighting patterns from the [Quake Source Code](https://github.com/id-Software/Quake/blob/bf4ac424ce754894ac8f1dae6a3981954bc9852d/qw-qc/world.qc#L328-L372) and converting it into C# for my little WinForms app.
 
-{{< highlight cs >}}
+
+{{< highlight code >}}
 
 private readonly Dictionary<string, string> _lightDict = new Dictionary<string, string>
 {

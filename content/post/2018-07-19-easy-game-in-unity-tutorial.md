@@ -32,7 +32,7 @@ There's a couple of different views here, you can find out what they're called b
 * Hierarchy: Shows a list of all game objects in the scene. You can select game objects in the current scene using the scene or hierarchy views.
 * Inspector: Properties for the selected item in the scene, hierarchy, or project view.
 * Game: At the top center of Unity you'll notice play, pause and stop buttons, these are used to actually play test the game. When you press play the game view will activate and you can test the game here.
-* Console: Gives you information, alerts and errors. Use the 3 little icons in the top right to toggle types of messages on/off. This can be things like compile errors with scripts or you can manually write output to this window from code using {{< highlight csharp >}}Debug.Log("This will appear in the console");{{< / highlight >}}
+* Console: Gives you information, alerts and errors. Use the 3 little icons in the top right to toggle types of messages on/off. This can be things like compile errors with scripts or you can manually write output to this window from code using {{< highlight code >}}Debug.Log("This will appear in the console");{{< / highlight >}}
 
 2\. We need a solid base for the play area, we're going to use a plane for this. Right-click in the hierarchy view and select "3D Object->Plane", a plane will appear in the scene and game views. 
 
@@ -77,7 +77,7 @@ Your sphere should look something like this.
 
 11\. Double click the Ball script in the hierarchy or inspector views to open it. Another application will open allowing you to edit the script. Replace the code with the following.
 
-{{< highlight csharp >}}
+{{< highlight code >}}
 
 using UnityEngine;
 
@@ -168,7 +168,7 @@ Now, as before, create a material and assign it to all of the cubes. You'll end 
 
 13\. Create a Wall script and add it to the parent wall game object. We want the Wall script to create a hole in itself by deleting one of its children for the player to try and pass through and we want it to move towards the player after a short delay.
 
-{{< highlight csharp >}}
+{{< highlight code >}}
 
 using UnityEngine;
 
@@ -225,7 +225,7 @@ Pressing play now, it should work as intended. A block of the wall will disappea
 
 17\. Use this code for the script.
 
-{{< highlight csharp >}}
+{{< highlight code >}}
 public class WallSpawner : MonoBehaviour
 {
     public GameObject wallPrefab;

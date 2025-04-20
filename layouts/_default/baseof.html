@@ -3,15 +3,13 @@
 
 {{ partial "head.html" . }}
 
-<body class="terminal">
-
+<body>
     {{ partial "header.html" . }}
-   
-    <div class="container">
+
     {{ block "main" . }}
     {{ end }}
-    </div>
 
     {{ partial "footer.html" . }}
+
 </body>
 </html>

@@ -1,20 +1,64 @@
-<div class="container">
-    <div class="terminal-nav">
-        <div class="terminal-logo">
-            <div class="logo terminal-prompt"><a href="/" class="no-style">{{ .Site.Title }}</a></div>
-        </div>
-        <nav class="terminal-menu">
-            {{ $currentPage := . }}
+<header>
+    <a href="/">
+        <svg
+                class="logo"
+                xmlns="http://www.w3.org/2000/svg"
+                width="44px"
+                height="36px"
+                viewBox="0 0 44 36">
+            <g>
+                <path d="M52,0H4C1.791,0,0,1.791,0,4v36c0,2.209,1.791,4,4,4h48c2.209,0,4-1.791,4-4V4C56,1.791,54.209,0,52,0z M9.57,27.799
+			C9.407,27.916,9.217,28,9,28c-0.553,0-1-0.447-1-1c0-0.335,0.176-0.617,0.43-0.799l-0.011-0.015l12.729-9.093L8.504,9.868
+			l0.008-0.014C8.211,9.682,8,9.371,8,9c0-0.552,0.447-1,1-1c0.181,0,0.342,0.062,0.488,0.146l0.008-0.014l14,8l-0.008,0.014
+			C23.789,16.318,24,16.629,24,17c0,0.336-0.176,0.617-0.43,0.799l0.011,0.015l-14,10L9.57,27.799z M32,30H22c-0.553,0-1-0.447-1-1
+			s0.447-1,1-1h10c0.553,0,1,0.447,1,1S32.553,30,32,30z"/>
+            </g>
+        </svg>
+        {{ .Site.Title }}
+    </a>
 
-            <ul>
-                {{ range .Site.Menus.main }}
-                <li>
-                    <a class="menu-item{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" title="{{ .Title }}" href="{{ .URL }}">{{ .Name }}</a>
-                </li>
-                {{ end }}
-            </ul>
-        </nav>
-    </div>
-</div>
+    <input id="menu-toggle" type="checkbox"/>
+    <label class='menu-button-container' for="menu-toggle">
+        <svg
+                class="menu-icon burger-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="44px"
+                height="36px"
+                viewBox="0 0 44 36">
+            <g>
+                <path d="M4,8h36c2.209,0,4-1.791,4-4s-1.791-4-4-4H4C1.791,0,0,1.791,0,4S1.791,8,4,8z M40,28H4c-2.209,0-4,1.791-4,4s1.791,4,4,4
+			h36c2.209,0,4-1.791,4-4S42.209,28,40,28z M40,14H4c-2.209,0-4,1.791-4,4s1.791,4,4,4h36c2.209,0,4-1.791,4-4S42.209,14,40,14z"/>
+            </g>
+        </svg>
 
-<!-- https://css-tricks.com/dont-overthink-flexbox-grids/ -->
+        <svg
+                class="menu-icon close-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="44px"
+                height="36px"
+                viewBox="0 0 22 22">
+            <g>
+                <path
+                        d="M11,0C4.925,0,0,4.925,0,11c0,6.076,4.925,11,11,11s11-4.924,11-11C22,4.925,17.075,0,11,0z M4,11
+                c0-3.859,3.141-7,7-7c1.204,0,2.337,0.306,3.328,0.844l-9.485,9.484C4.306,13.338,4,12.204,4,11z M11,18
+                c-1.204,0-2.338-0.306-3.329-0.844l9.485-9.485C17.694,8.662,18,9.796,18,11C18,14.86,14.859,18,11,18z"
+                />
+            </g>
+        </svg>
+
+
+    </label>
+
+    <nav>
+        {{ $currentPage := . }}
+
+        <ul>
+            {{ range .Site.Menus.main }}
+            <li>
+                <a class="menu-item{{ if $currentPage.IsMenuCurrent " main" . }} active-todo{{ end }}" title="{{ .Title }}"
+                href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+</header>

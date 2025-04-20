@@ -8,8 +8,8 @@ Duke Nukem 3D was released in 1996 and sits amongst the top first person shooter
 Playing it in 2022 turns out to be straight-forward. All you need is a...
 
 * Legal copy of the game (GOG, Steam, Disks, etc.) so you have access to the files DUKE3D.GRP and DUKE.RTS files
-* Download {{< blanklink src="https://www.eduke32.com/" caption="EDuke32" >}}, a source port of the original and extract it
-* Optionally the {{< blanklink src="https://hrp.duke4.net/" caption="Duke Nukem 3D: High Resolution Pack" >}} also extracted (but bin their shareware versions of DUKE3D.GRP and DUKE.RTS)
+* Download [EDuke32](https://www.eduke32.com/), a source port of the original and extract it
+* Optionally, the [Duke Nukem 3D: High Resolution Pack](https://hrp.duke4.net/) also extracted (but bin their shareware versions of DUKE3D.GRP and DUKE.RTS)
 
 And Voilà, that's it!
 

@@ -7,7 +7,7 @@ This is a short post to demonstrate a simple way to pass an array of data to a s
 
 Firstly, create a custom table type in SQL. Note that you only need to do this step once per database.
 
-{{< highlight sql >}}
+{{< highlight code >}}
 
 CREATE TYPE [dbo].[IdList] AS TABLE(
     [Id] [int] NULL
@@ -17,7 +17,7 @@ CREATE TYPE [dbo].[IdList] AS TABLE(
 
 Update your stored procedure to accept a parameter of the new type.
 
-{{< highlight sql >}}
+{{< highlight code >}}
 
 @Ids AS dbo.IdList READONLY
 
@@ -25,7 +25,7 @@ Update your stored procedure to accept a parameter of the new type.
 
 In C# build the table like this.
 
-{{< highlight csharp >}}
+{{< highlight code >}}
 
 var idTable = new DataTable();
 idTable.Columns.Add("Id");
@@ -37,7 +37,7 @@ foreach (var id in ids) {
 
 Add it as a command parameter like so...
 
-{{< highlight csharp >}}
+{{< highlight code >}}
 
 var tableParam = cmd.Parameters.AddWithValue("@Ids", ids);
 tableParam.TypeName = "dbo.IdList";
@@ -48,7 +48,7 @@ tableParam.SqlDbType = SqlDbType.Structured;
 Finally, use the array in your stored procedure like this. 
 
 
-{{< highlight sql >}}
+{{< highlight code >}}
 
 (a.OtherId IN (SELECT Id FROM @Ids)
 

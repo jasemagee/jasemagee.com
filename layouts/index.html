@@ -4,20 +4,20 @@
     {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
 
     {{ range $paginator.Pages }}
-    <div>
-        <h1><a href="{{ .Permalink }}">{{ .Title }}</a>
-        <small>{{ .Date.Format "Jan 2 2006" }}</small></h1>       
-    </div>
+    <article>
+        <div class="post-title">
+            <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+            <small>{{ .Date.Format "Jan 2 2006" }}</small>
+        </div>
 
-    <div class="content">
-        {{ .Content }}
-    </div>
+        <div class="post-content">
+            {{ .Content }}
+        </div>
 
-    <hr>
+    </article>
     {{ end }}
 
-    <div class="btn-group three-col">
-
+    <div class="pagination">
         {{ if $paginator.HasPrev }}
         <a href="{{ $paginator.Prev.URL }}" class="btn btn-default btn-ghost">
             Previous

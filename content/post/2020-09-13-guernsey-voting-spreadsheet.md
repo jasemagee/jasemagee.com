@@ -5,7 +5,7 @@ title: Guernsey Voting Spreadsheet
 
 Feeling overwhelmed by the Guernsey 2020 election? Me too. So, I’ve created a Google Spreadsheet allowing you to rank who you’re going to vote for between 1 (yes) and 5 (no). 
 
-**{{< blanklink src="https://docs.google.com/spreadsheets/d/139RgkVdvUQiJfonhXhU9o7F-fM2Xy8PiPSh4KHIdnpU/template/preview" caption="Here’s a link to the template" >}}, feel free to use it.**
+**[Here’s a link to the template](https://docs.google.com/spreadsheets/d/139RgkVdvUQiJfonhXhU9o7F-fM2Xy8PiPSh4KHIdnpU/template/preview), feel free to use it.**
 
 Step 1. Go through the options and fill in the 'Chance for vote' column with your view. 1 being yes, 5 being no. There are links to their YouTube videos and details on the Election 2020 website on each row.
 

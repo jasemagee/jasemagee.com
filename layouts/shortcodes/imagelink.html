@@ -1,16 +1,20 @@
-{{ $imagename := (.Get "src") }}
+{{- $imagename := .Get "src" -}}
 {{- $original := resources.Get $imagename -}}
+{{- $alt := .Get "alt" | default "Image" -}}
 
-<a href="{{ with .Get "link"}}{{.}}{{else}}{{.Get "src" }}{{end}}">
-    <figure>
+
+<figure>
+    <a href="{{ $original.RelPermalink }}" target="_blank">
         {{ if gt $original.Width 860 }}
-        {{ with ($original.Resize "860x") }}
-            <img src="{{ .RelPermalink }}">
-        {{ end }}
+        {{- with ($original.Resize "860x") -}}
+        <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
+        {{- end -}}
         {{ else }}
-            <img src="{{ $original.RelPermalink }}" style="margin-left: auto; margin-right:auto; max-width: {{ $original.Width }}px; max-height:{{ $original.Height }}px">
-        {{ end }} 
+        <img src="{{ $original.RelPermalink }}" alt="{{ $alt }}">
+        {{ end }}
+    </a>
 
-        {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
-    </figure>
-</a>
+    {{ with .Get "caption" }}
+    <figcaption>{{ . }}</figcaption>
+    {{ end }}
+</figure>
