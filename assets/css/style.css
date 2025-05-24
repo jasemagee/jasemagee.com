@@ -100,6 +100,34 @@ nav > ul {
     list-style: none;
 }
 
+.menu-button-container svg {
+    width: 30px;
+    height: 30px;
+    fill: var(--font-color);
+    transition: transform 0.3s ease;
+}
+
+.menu-button-container:hover svg {
+    transform: scale(1.1);
+    fill: var(--secondary-color);
+}
+
+.close-icon {
+    display: none;
+}
+
+#menu-toggle:checked + .menu-button-container .burger-icon {
+    display: none;
+}
+
+#menu-toggle:checked + .menu-button-container .close-icon {
+    display: block;
+}
+
+.logo {
+    fill: var(--font-color);
+}
+
 nav > ul > li a {
     text-decoration: none;
     padding: 0.4em 0.8em;
